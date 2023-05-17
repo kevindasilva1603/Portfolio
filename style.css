@@ -53,11 +53,19 @@ nav {
     color: black;
     margin-bottom: 25px;
 }
-h1 {
+.title2 {
     text-align: center;
     font-family: 'Paytone One';
     font-size: 50px;
     margin-top: 200px;
+    color: #fff;
+    text-shadow: 10px 5px #08004d;
+}
+h1 {
+    text-align: center;
+    font-family: 'Paytone One';
+    font-size: 50px;
+
     color: #fff;
     text-shadow: 10px 5px #08004d;
     margin-bottom: 80px;
@@ -124,6 +132,7 @@ a {
     margin-left: 21px;
     font-weight: 700;
     color: #fff;
+    text-align: center;
 }
 /* Code for the background*/
 html {
@@ -813,7 +822,7 @@ html {
 }
 #title span {
     background: -webkit-linear-gradient(white, #38495a);
-    -webkit-background-clip: text;
+
     -webkit-text-fill-color: transparent;
 }
 
@@ -824,9 +833,6 @@ html {
     to {
         transform: translateY(-2000px);
     }
-}
-
-.second-block {
 }
 
 a::before {
