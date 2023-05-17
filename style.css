@@ -10,6 +10,23 @@ body {
     height: 100%;
     width: 100%;
 }
+
+.second-box {
+    height: 100%;
+    width: 100%;
+}
+.imgme {
+    width: 10%;
+}
+
+.me {
+    height: 200px;
+    display: flex;
+    margin: auto;
+    stroke-dashoffset: -1120;
+    align-items: center;
+    justify-content: center;
+}
 nav {
     display: flex;
     height: 80px;
