@@ -98,39 +98,60 @@
                 </div>
             </div>
         </div>
+        <div class="specialo"></div>
+        <h1>2.Projets</h1>
         <div class="portfolio-grid">
             <div class="column">
-                <div class="project">
+                <a
+                    href="https://allocinereproduction.netlify.app"
+                    class="project"
+                >
                     <img src="./img/allo.svg" alt="Projet 1" />
                     <p class="sub">Reproduction du site Allo Ciné</p>
-                </div>
-                <div class="project">
+                </a>
+                <a href="https://weatherappterre.netlify.app" class="project">
                     <img src="./img/bjr.svg" alt="Projet 2" />
                     <p class="sub">Création d'un site Météo avec une API</p>
-                </div>
+                </a>
             </div>
             <div class="column">
-                <div class="project">
+                <a href="https://jeuxbanana.netlify.app" class="project">
                     <img src="./img/Cosmo Gun.svg" alt="Projet 3" />
                     <p class="subi">
                         Création d'un jeux à partir d'une maquette
                     </p>
-                </div>
-                <div class="project">
+                </a>
+                <a href="https://kaplishfilm.netlify.app" class="project">
                     <img src="./img/kaplish2.svg" alt="Projet 4" />
                     <p class="sub">
                         Reproduction d'un site Cinéma a partir d'une maquette
                     </p>
-                </div>
+                </a>
             </div>
         </div>
         <div class="second-block">
+            <h1>3.Contact</h1>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Corporis, nisi veniam! Iusto ullam quo dolores libero? Rerum
                 eaque eos laborum aliquid aliquam eveniet nisi recusandae
                 voluptates sunt. Accusantium, eos doloribus.
             </p>
+            <form method="post" action="mail.php">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required /><br /><br />
+                <label for="email">E-mail :</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                /><br /><br />
+                <label for="message">Message :</label><br />
+                <textarea id="message" name="message" required></textarea
+                ><br /><br />
+                <input type="submit" value="Envoyer" />
+            </form>
         </div>
     </body>
 </html>
