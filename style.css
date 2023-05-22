@@ -12,6 +12,14 @@ body {
     height: 100%;
     width: 100%;
 }
+.htotal {
+    text-align: center;
+    font-family: 'Paytone One';
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 10px 5px #08004d;
+    margin-bottom: 142px;
+}
 
 .second-box {
     height: 100%;
