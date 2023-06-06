@@ -111,7 +111,8 @@ a {
     margin-bottom: 35px;
     margin-top: 14px;
     width: 50%;
-    line-height: 24px;
+    line-height: 28px;
+    font-size: 18px;
 }
 .subi {
     color: white;
@@ -1007,4 +1008,8 @@ a:hover::before {
     display: flex;
     justify-content: center;
     gap: 30px;
+}
+
+.foot {
+    width: 30px;
 }
