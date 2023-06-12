@@ -140,7 +140,7 @@ a:hover::after {
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    margin-top: -18px;
+    margin-top: 20px;
     margin-bottom: 78px;
 }
 
