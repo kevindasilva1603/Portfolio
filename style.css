@@ -1124,4 +1124,8 @@ a:hover::before {
     .subo {
         display: none;
     }
+
+    .cursor {
+        display: none;
+    }
 }
