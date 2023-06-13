@@ -197,7 +197,12 @@ window.addEventListener('DOMContentLoaded', () => {
 
 // end mscursor
 document.addEventListener('DOMContentLoaded', function (event) {
-    var dataText = ['Kévin Da Silva.', 'Web Developper.', 'Portfolio.', 'bye!']
+    var dataText = [
+        'Kévin Da Silva.',
+        'Web Developper.',
+        'Portfolio.',
+        'Thanks!',
+    ]
 
     function title2(text, i, fnCallback) {
         if (i < text.length) {

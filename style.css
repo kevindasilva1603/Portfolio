@@ -136,6 +136,16 @@ a:hover::after {
     line-height: 28px;
     font-size: 18px;
 }
+.subo {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin-bottom: 35px;
+    margin-top: 14px;
+    width: 50%;
+    line-height: 28px;
+    font-size: 18px;
+}
 .subi {
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -1098,4 +1108,20 @@ a:hover::before {
     font-style: normal;
     font-weight: 800;
     font-size: large;
+}
+
+@media (max-width: 750px) {
+    .title2 {
+        font-size: 35px;
+    }
+
+    .description {
+        font-size: 20px;
+        width: 90%;
+        line-height: 35px;
+        margin-top: 5px;
+    }
+    .subo {
+        display: none;
+    }
 }
