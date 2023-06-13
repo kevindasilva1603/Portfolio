@@ -1112,7 +1112,7 @@ a:hover::before {
 
 @media (max-width: 750px) {
     .title2 {
-        font-size: 35px;
+        font-size: 40px;
     }
 
     .description {
